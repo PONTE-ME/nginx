@@ -10,7 +10,6 @@ OPENSSL =	openssl-1.1.1h
 ZLIB =		zlib-1.2.11
 PCRE =		pcre-8.44
 
-
 release: export
 
 	mv $(TEMP)/$(NGINX)/auto/configure $(TEMP)/$(NGINX)
